@@ -1,0 +1,172 @@
+.root {
+  position: relative;
+  width: 600px;
+  height: 450px;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.rectangle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.mask {
+  position: absolute;
+  left: 0;
+  right: 50%;
+  top: 0;
+  bottom: 0;
+  border-radius: 10px 0 0 10px;
+  background-color: #fff;
+}
+.bitmap {
+  position: absolute;
+  left: 0;
+  right: 43.7177%;
+  top: 0;
+  bottom: 0;
+  background-image:/* webpackIgnore: true */ url('assets/bitmap2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-mask-image:/* webpackIgnore: true */ url('assets/bitmap.svg');
+  mask-image:/* webpackIgnore: true */ url('assets/bitmap.svg');
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: 0px 0px;
+  mask-position: 0px 0px;
+  -webkit-mask-size: 300px 450px;
+  mask-size: 300px 450px;
+}
+.pERFUME {
+  color: #6c7289;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 5px;
+  position: absolute;
+  left: 55.25%;
+  right: 29.4167%;
+  top: calc(50% - 185.5px);
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+.loremIpsumDolorSi {
+  color: #6c7289;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 500;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 55.25%;
+  right: 5.25%;
+  top: calc(50% - -8px);
+  height: min-content;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+.rectangle2 {
+  position: absolute;
+  left: 55.3333%;
+  right: 5.3333%;
+  top: 82.2222%;
+  bottom: 7.1111%;
+  border-radius: 8px;
+  background-color: #3d8168;
+}
+.group4 {
+  position: absolute;
+  left: 65.8333%;
+  right: 15.6667%;
+  top: 85.5556%;
+  bottom: 10.4444%;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.addToCart {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 23.4234%;
+  right: 0;
+  top: calc(50% - 0.5px);
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+.cart {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 14.3852px;
+  height: 16px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.gabrielleEssenceEa {
+  color: #1c232b;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: bold;
+  font-family: Fraunces, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 55.3333%;
+  right: 5.3333%;
+  top: calc(50% - 110px);
+  height: min-content;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+._14999 {
+  color: #3d8168;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: bold;
+  font-family: Fraunces, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 55.3333%;
+  right: 23.5%;
+  top: calc(50% - -99px);
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+._16999 {
+  color: #6c7289;
+  font-size: 13px;
+  line-height: 23px;
+  font-weight: 500;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-decoration: line-through;
+  position: absolute;
+  left: 79.6667%;
+  right: 12.3333%;
+  top: calc(50% - -99.5px);
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
